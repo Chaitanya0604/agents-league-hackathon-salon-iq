@@ -23,7 +23,7 @@ async def main() -> None:
     async with FoundryAgent(
         project_endpoint=os.environ["AZURE_AI_PROJECT_ENDPOINT"],
         agent_name="pricing-agent",
-        agent_version="4",
+        agent_version="23",
         credential=DefaultAzureCredential(),
     ) as agent:
     

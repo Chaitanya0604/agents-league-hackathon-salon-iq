@@ -347,7 +347,7 @@ def build_invoice_html(text: str) -> str:
                 f'</div>'
             ); continue
         # Footer
-        if "thank you" in line.lower() or "see you" in line.lower():
+        if "thank you" in line.lower() or "see you" in line.lower() or "look forward" in line.lower():
             rows_html += f'<div class="invoice-footer">{line}</div>'; continue
         # Key : Value meta rows (no $)
         if ":" in line and "$" not in line:

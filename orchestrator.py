@@ -25,7 +25,7 @@ AGENTS = {
     "seasonal":        {"name": "seasonal-agent",         "version": "10"},
     "stylist":         {"name": "stylist-agent",          "version": "4"},
     "schedule":        {"name": "schedule-agent",         "version": "10"},
-    "pricing":         {"name": "pricing-agent",          "version": "4"},
+    "pricing":         {"name": "pricing-agent",          "version": "23"},
 }
 
 TALKING_AGENTS = {"customer_memory", "seasonal", "schedule"}
@@ -469,8 +469,8 @@ async def route(
                 session.append_history("seasonal_agent", strip_json_blob(response))
                 session.advance_stage()
                 continue
-            elif session.seasonal_turns >= 6:
-                # Hard cap — force-advance after 6 agent turns no matter what
+            elif session.seasonal_turns >= 5:
+                # Hard cap — force-advance after 5 agent turns no matter what
                 data = extract_json(response)
                 if data:
                     session.accumulated_json.update(data)
@@ -501,7 +501,7 @@ async def route(
             continue
 
         # ── schedule ──────────────────────────────────────────────────────────
-        # Talks to customer up to 3 times before force-advancing.
+        # Talks to customer up to 4 times before force-advancing.
         if current_agent == "schedule":
             response = await call_agent(current_agent, prompt)
             if is_complete_json(response, "schedule"):
@@ -513,8 +513,8 @@ async def route(
                 continue
             else:
                 session.schedule_turns += 1
-                if session.schedule_turns >= 3:
-                    # Force-advance after 3 turns
+                if session.schedule_turns >= 4:
+                    # Force-advance after 4 turns
                     session.accumulated_json.update(force_schedule_json(session))
                     session.append_history("schedule_agent", strip_json_blob(response))
                     session.advance_stage()
@@ -636,11 +636,16 @@ def generate_invoice_pdf(invoice_text: str) -> bytes:
         # Key : Value meta rows
         if ":" in line and "$" not in line and not line.startswith("Tax"):
             key, _, val = line.partition(":")
+            key = key.strip()
+            val = val.strip()
             c.setFillColor(dark_brown)
             c.setFont("Helvetica-Bold", 9)
-            c.drawString(left_margin, y, key.strip())
+            c.drawString(left_margin, y, key)
+            key_width = c.stringWidth(key, "Helvetica-Bold", 9)
+            min_gap = 4 * mm
+            value_x = max(left_margin + 40 * mm, left_margin + key_width + min_gap)
             c.setFont("Helvetica", 9)
-            c.drawString(left_margin + 40 * mm, y, val.strip())
+            c.drawString(value_x, y, val)
             y -= line_height
             continue
 
@@ -654,14 +659,18 @@ def generate_invoice_pdf(invoice_text: str) -> bytes:
             y -= line_height
             continue
 
-        # Footer
-        if "thank you" in line.lower() or "see you" in line.lower():
+        # Footer (thank-you / closing lines — keep these centered as a block)
+        footer_phrases = (
+            "thank you", "see you", "look forward",
+            "seeing you again", "visit us again",
+        )
+        if any(p in line.lower() for p in footer_phrases):
             c.setFillColor(gold)
             c.setFont("Helvetica-Oblique", 9)
             c.drawCentredString(width / 2, y, line)
             y -= line_height
             continue
-
+        
         # Default
         c.setFillColor(dark_brown)
         c.setFont("Helvetica", 9)
