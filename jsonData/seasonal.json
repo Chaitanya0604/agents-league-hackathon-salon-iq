@@ -1,0 +1,62 @@
+{
+  "salon": "Glamour & Co.",
+  "description": "Seasonal service recommendations. Match today's date to the active season and suggest accordingly.",
+  "seasons": {
+    "Valentines_Week": {
+      "dates": "Feb 10-16",
+      "primary_services": ["Hair Coloring", "Nail Art"],
+      "secondary_services": ["Facial", "Eyebrow Wax"],
+      "upsell_message": "Valentine's is coming — make it unforgettable with a colour refresh or gorgeous nail art.",
+      "reason": "Date nights and romantic events."
+    },
+    "Easter_Week": {
+      "dates": "Week before Easter Sunday",
+      "primary_services": ["Facial"],
+      "secondary_services": ["Manicure", "Pedicure"],
+      "upsell_message": "Spring is here — treat yourself to a fresh facial and polished nails for Easter.",
+      "reason": "Spring celebrations and family gatherings."
+    },
+    "Summer_Season": {
+      "dates": "Jun 1 - Aug 31",
+      "primary_services": ["Waxing", "Eyebrow Wax"],
+      "secondary_services": ["Pedicure", "Facial"],
+      "upsell_message": "Beach season is here — smooth skin and summer-ready nails are a must.",
+      "reason": "Vacation and beach season."
+    },
+    "Wedding_Season": {
+      "dates": "Jun 15 - Jul 15",
+      "primary_services": ["Hair Coloring", "Facial"],
+      "secondary_services": ["Nail Art", "Pedicure", "Eyebrow Wax"],
+      "upsell_message": "Wedding season is in full swing — look stunning for every celebration.",
+      "reason": "Wedding guests and celebrations."
+    },
+    "Halloween_Week": {
+      "dates": "Oct 27 - Nov 1",
+      "primary_services": ["Hair Coloring", "Nail Art"],
+      "secondary_services": ["Facial"],
+      "upsell_message": "Halloween is around the corner — bold colours and dramatic nail art are trending right now.",
+      "reason": "Party looks and themed events."
+    },
+    "Thanksgiving_Week": {
+      "dates": "Week of US Thanksgiving",
+      "primary_services": ["Facial", "Hair Coloring"],
+      "secondary_services": ["Manicure"],
+      "upsell_message": "Look your best for Thanksgiving gatherings — a fresh facial or colour refresh makes all the difference.",
+      "reason": "Holiday gatherings."
+    },
+    "Christmas_Week": {
+      "dates": "Dec 20-26",
+      "primary_services": ["Hair Coloring", "Facial"],
+      "secondary_services": ["Nail Art", "Pedicure", "Eyebrow Wax"],
+      "upsell_message": "Christmas is almost here — book now before slots fill up. Holiday nail art available!",
+      "reason": "Holiday parties and celebrations."
+    },
+    "NewYear_Week": {
+      "dates": "Dec 28 - Jan 2",
+      "primary_services": ["Hair Coloring", "Facial"],
+      "secondary_services": ["Nail Art", "Pedicure"],
+      "upsell_message": "New year, new look — start 2026 feeling incredible with a full glam package.",
+      "reason": "New year makeovers."
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "description": "Extra slots added during special seasonal weeks. These are ON TOP of or REPLACE regular weekly slots. Check this first before falling back to weekly defaults.",
+  "how_to_use": "If today falls within a special week, use these slots. Format: Day + Time.",
+  "Valentines_Week": {
+    "dates": "Feb 10-16",
+    "Hailey": ["Tuesday 3:00 PM"],
+    "Kendall": ["Wednesday 4:00 PM"],
+    "Gigi": ["Sunday 11:00 AM"],
+    "Olivia": ["Monday 10:00 AM", "Thursday 12:00 PM"],
+    "Mia": ["Friday 5:00 PM"]
+  },
+  "Easter_Week": {
+    "dates": "Week before Easter Sunday",
+    "Hailey": ["Wednesday 9:00 AM"],
+    "Kendall": ["Thursday 11:00 AM"],
+    "Gigi": ["Sunday 2:00 PM"],
+    "Olivia": ["Friday 10:00 AM"],
+    "Mia": ["Saturday 4:00 PM"]
+  },
+  "Wedding_Season_Week": {
+    "dates": "Jun 15 - Jul 15 (peak)",
+    "Hailey": [],
+    "Kendall": ["Wednesday 11:00 AM"],
+    "Gigi": ["Friday 1:00 PM"],
+    "Olivia": ["Monday 9:00 AM"],
+    "Mia": ["Thursday 2:00 PM"]
+  },
+  "Halloween_Week": {
+    "dates": "Oct 27 - Nov 1",
+    "Hailey": ["Tuesday 2:00 PM"],
+    "Kendall": ["Friday 6:00 PM"],
+    "Gigi": ["Sunday 1:00 PM"],
+    "Olivia": ["Wednesday 10:00 AM"],
+    "Mia": ["Saturday 5:00 PM"]
+  },
+  "Thanksgiving_Week": {
+    "dates": "Week of US Thanksgiving",
+    "Hailey": ["Monday 9:00 AM"],
+    "Kendall": [],
+    "Gigi": ["Tuesday 2:00 PM"],
+    "Olivia": ["Wednesday 11:00 AM"],
+    "Mia": ["Friday 3:00 PM"]
+  },
+  "Christmas_Week": {
+    "dates": "Dec 20-26",
+    "Hailey": ["Thursday 5:00 PM"],
+    "Kendall": ["Friday 6:00 PM"],
+    "Gigi": ["Sunday 2:00 PM"],
+    "Olivia": ["Monday 10:00 AM", "Wednesday 10:00 AM"],
+    "Mia": ["Tuesday 4:00 PM", "Sunday 7:00 PM"]
+  },
+  "NewYear_Week": {
+    "dates": "Dec 28 - Jan 2",
+    "Hailey": ["Monday 4:00 PM"],
+    "Kendall": ["Wednesday 5:00 PM"],
+    "Gigi": ["Friday 2:00 PM"],
+    "Olivia": ["Tuesday 11:00 AM"],
+    "Mia": ["Thursday 3:00 PM", "Sunday 6:00 PM"]
+  },
+  "Summer_Season": {
+    "dates": "Jun 1 - Aug 31",
+    "Hailey": ["Saturday 11:00 AM"],
+    "Kendall": ["Friday 3:00 PM"],
+    "Gigi": ["Monday 6:00 PM", "Saturday 10:00 AM"],
+    "Olivia": ["Sunday 10:00 AM"],
+    "Mia": ["Wednesday 6:00 PM"]
+  }
+}

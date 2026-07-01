@@ -1,0 +1,71 @@
+{
+  "salon": "Glamour & Co.",
+  "description": "Active promotions. Check occasion and services booked to apply the right deal. Always show the saving to the customer.",
+  "promotions": {
+    "Christmas_Week": {
+      "promotion_name": "Holiday Glam Package",
+      "condition_services": ["Hair Coloring", "Facial"],
+      "discount_percent": 10,
+      "message": "Book Hair Coloring + Facial together this Christmas week and save 10%.",
+      "saving_example": "Save $15 on a $150 booking."
+    },
+    "NewYear_Week": {
+      "promotion_name": "New Year Makeover",
+      "condition_services": ["Hair Coloring", "Facial", "Nail Art"],
+      "discount_percent": 15,
+      "message": "Complete makeover package (Hair Coloring + Facial + Nail Art) receives 15% off.",
+      "saving_example": "Save $30 on a $200 booking."
+    },
+    "Valentines_Week": {
+      "promotion_name": "Date Night Special",
+      "condition_services": ["Nail Art", "Facial"],
+      "free_service": "Eyebrow Wax",
+      "discount_percent": 0,
+      "message": "Book Nail Art + Facial this Valentine's week and receive a complimentary Eyebrow Wax.",
+      "saving_example": "Free $15 Eyebrow Wax with your booking."
+    },
+    "Wedding_Season": {
+      "promotion_name": "Wedding Ready Package",
+      "condition_services": ["Hair Coloring", "Facial", "Pedicure"],
+      "discount_percent": 12,
+      "message": "Wedding season package (Hair Coloring + Facial + Pedicure) receives 12% off.",
+      "saving_example": "Save $22.80 on a $190 booking."
+    },
+    "Birthday_Party": {
+      "promotion_name": "Birthday Glow Package",
+      "condition_services": ["Hair Coloring", "Facial"],
+      "discount_percent": 10,
+      "message": "Celebrating your birthday? Get 10% off our signature glow package.",
+      "saving_example": "Save $15 on a $150 booking."
+    },
+    "House_Warming": {
+      "promotion_name": "Fresh Start Package",
+      "condition_services": ["Facial", "Manicure"],
+      "discount_percent": 8,
+      "message": "New home, fresh look — get 8% off Facial + Manicure.",
+      "saving_example": "Save $8 on a $100 booking."
+    },
+    "Office_Party": {
+      "promotion_name": "Professional Polish",
+      "condition_services": ["Hair Coloring", "Facial"],
+      "discount_percent": 10,
+      "message": "Look your best for your next office event — 10% off Hair Coloring + Facial.",
+      "saving_example": "Save $15 on a $150 booking."
+    },
+    "General_Spend_Offer": {
+      "promotion_name": "Big Spender Bonus",
+      "condition_services": [],
+      "minimum_spend": 150,
+      "discount_percent": 5,
+      "message": "Spend over $150 in a single booking and receive 5% off your total.",
+      "saving_example": "Save $7.50 on a $150 booking."
+    },
+    "Summer_Season": {
+      "promotion_name": "Summer Smooth Deal",
+      "condition_services": ["Waxing", "Pedicure"],
+      "discount_percent": 10,
+      "message": "Beach-ready combo — book Waxing + Pedicure this summer and save 10%.",
+      "saving_example": "Save $7.50 on a $75 booking."
+    }
+  }
+}

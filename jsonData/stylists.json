@@ -1,0 +1,124 @@
+{
+  "salon": "Glamour & Co.",
+  "last_updated": "2026-06-13",
+  "stylists": {
+    "Hailey": {
+      "stylist_id": "STY-001",
+      "specialties": ["Hair Coloring", "Facial"],
+      "rating": 4.78,
+      "review_count": 245,
+      "years_experience": 8,
+      "rating_breakdown": {
+        "5_star": 148,
+        "4_star": 82,
+        "3_star": 12,
+        "2_star": 2,
+        "1_star": 1
+      },
+      "per_customer_ratings": {
+        "Rosie": [4.9, 5.0],
+        "Jennie": [4.6],
+        "Lisa": [4.9],
+        "Taylor": [4.8, 5.0],
+        "Katy": [4.5],
+        "Adele": [4.4],
+        "Rihanna": [4.8, 4.9, 5.0],
+        "Ariana": [4.5],
+        "Sabrina": [4.8, 5.0],
+        "IU": [3.8]
+      },
+      "bio": "Senior stylist. 8 years specialising in colour and skin. Most requested stylist."
+    },
+    "Kendall": {
+      "stylist_id": "STY-002",
+      "specialties": ["Haircut", "Nail Art", "Eyebrow Wax"],
+      "rating": 4.62,
+      "review_count": 198,
+      "years_experience": 6,
+      "rating_breakdown": {
+        "5_star": 112,
+        "4_star": 74,
+        "3_star": 10,
+        "2_star": 2,
+        "1_star": 0
+      },
+      "per_customer_ratings": {
+        "Jisoo": [4.3, 4.4]
+      },
+      "bio": "Precision cut specialist. Also skilled in nail art and brow shaping."
+    },
+    "Gigi": {
+      "stylist_id": "STY-003",
+      "specialties": ["Waxing", "Facial", "Pedicure"],
+      "rating": 4.82,
+      "review_count": 287,
+      "years_experience": 10,
+      "rating_breakdown": {
+        "5_star": 189,
+        "4_star": 88,
+        "3_star": 8,
+        "2_star": 2,
+        "1_star": 0
+      },
+      "per_customer_ratings": {
+        "IU": [5.0],
+        "Camila": [4.9, 4.8],
+        "Halsey": [4.9, 4.8],
+        "Selena": [4.6]
+      },
+      "bio": "Most experienced stylist. Waxing and facial expert. Gentle and thorough."
+    },
+    "Olivia": {
+      "stylist_id": "STY-004",
+      "specialties": ["Haircut", "Hair Coloring", "Waxing"],
+      "rating": 4.71,
+      "review_count": 165,
+      "years_experience": 7,
+      "rating_breakdown": {
+        "5_star": 98,
+        "4_star": 55,
+        "3_star": 10,
+        "2_star": 2,
+        "1_star": 0
+      },
+      "per_customer_ratings": {
+        "Lisa": [4.7],
+        "Jisoo": [4.9],
+        "Katy": [4.7, 4.9],
+        "Adele": [4.8],
+        "Selena": [4.8],
+        "Camila": [4.5],
+        "Halsey": [4.4],
+        "Ariana": [4.7, 4.8],
+        "Sabrina": [4.6]
+      },
+      "bio": "Versatile stylist. Strong in hair colour and waxing. Rising customer favourite."
+    },
+    "Mia": {
+      "stylist_id": "STY-005",
+      "specialties": ["Manicure", "Pedicure", "Facial", "Nail Art", "Eyebrow Wax"],
+      "rating": 4.87,
+      "review_count": 210,
+      "years_experience": 9,
+      "rating_breakdown": {
+        "5_star": 145,
+        "4_star": 58,
+        "3_star": 6,
+        "2_star": 1,
+        "1_star": 0
+      },
+      "per_customer_ratings": {
+        "Rosie": [4.6],
+        "Jennie": [4.4, 4.9],
+        "Lisa": [4.5],
+        "Suzy": [4.8, 4.6, 5.0],
+        "Taylor": [4.7],
+        "Adele": [4.9],
+        "Selena": [5.0],
+        "Ellie": [4.9, 4.8, 5.0],
+        "IU": [4.9]
+      },
+      "bio": "Nail and beauty all-rounder. Highest-rated across nail services. Customers love her precision."
+    }
+  }
+}

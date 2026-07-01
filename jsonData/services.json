@@ -1,0 +1,79 @@
+{
+  "salon": "Glamour & Co.",
+  "currency": "USD",
+  "tax_rate": 0.085,
+  "services": {
+    "Haircut": {
+      "service_id": "SVC-001",
+      "price": 30,
+      "duration_minutes": 45,
+      "category": "hair",
+      "description": "Wash, cut, and blow dry. Any length or style.",
+      "best_stylists": ["Kendall", "Olivia"]
+    },
+    "Hair Coloring": {
+      "service_id": "SVC-002",
+      "price": 80,
+      "duration_minutes": 120,
+      "category": "hair",
+      "description": "Full colour, highlights, or balayage. Includes wash and blow dry.",
+      "best_stylists": ["Hailey", "Olivia"]
+    },
+    "Eyebrow Wax": {
+      "service_id": "SVC-003",
+      "price": 15,
+      "duration_minutes": 20,
+      "category": "wax",
+      "description": "Eyebrow shaping and tidy using warm wax.",
+      "best_stylists": ["Kendall", "Mia", "Olivia"]
+    },
+    "Pedicure": {
+      "service_id": "SVC-004",
+      "price": 40,
+      "duration_minutes": 60,
+      "category": "nails",
+      "description": "Foot soak, exfoliation, nail shaping, cuticle care, and polish.",
+      "best_stylists": ["Mia", "Gigi"]
+    },
+    "Manicure": {
+      "service_id": "SVC-005",
+      "price": 30,
+      "duration_minutes": 45,
+      "category": "nails",
+      "description": "Nail shaping, cuticle care, buffing, and polish.",
+      "best_stylists": ["Mia", "Kendall"]
+    },
+    "Facial": {
+      "service_id": "SVC-006",
+      "price": 70,
+      "duration_minutes": 90,
+      "category": "skin",
+      "description": "Deep cleanse, exfoliation, mask, and moisturise. Customised to skin type.",
+      "best_stylists": ["Hailey", "Mia", "Gigi"]
+    },
+    "Waxing": {
+      "service_id": "SVC-007",
+      "price": 35,
+      "duration_minutes": 45,
+      "category": "wax",
+      "description": "Full body waxing. Arms, legs, underarms, or upper lip. Specify area at booking.",
+      "best_stylists": ["Gigi", "Olivia"]
+    },
+    "Nail Art": {
+      "service_id": "SVC-008",
+      "price": 50,
+      "duration_minutes": 75,
+      "category": "nails",
+      "description": "Custom nail art designs. Seasonal and themed options available.",
+      "best_stylists": ["Mia", "Kendall"]
+    }
+  },
+  "popular_combos": [
+    { "name": "The Refresh", "services": ["Haircut", "Eyebrow Wax"], "total": 45 },
+    { "name": "Glow Up", "services": ["Facial", "Eyebrow Wax", "Manicure"], "total": 115 },
+    { "name": "Nail Day", "services": ["Manicure", "Pedicure"], "total": 70 },
+    { "name": "Full Glam", "services": ["Hair Coloring", "Facial", "Nail Art"], "total": 200 },
+    { "name": "Summer Ready", "services": ["Waxing", "Pedicure", "Eyebrow Wax"], "total": 90 },
+    { "name": "Holiday Special", "services": ["Hair Coloring", "Facial"], "total": 150 }
+  ]
+}

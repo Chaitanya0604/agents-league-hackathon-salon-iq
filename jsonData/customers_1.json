@@ -1,0 +1,291 @@
+{
+  "salon": "Glamour & Co.",
+  "last_updated": "2026-06-13",
+  "customers": {
+    "Rosie": {
+      "customer_id": "CUST-001",
+      "phone": "+1 917 555 0101",
+      "email": "rosie@email.com",
+      "preferred_day": "Saturday",
+      "member_since": "2024-11-01",
+      "visit_history": [
+        { "date": "2025-04-12", "occasion": "Before Easter", "services": ["Facial"], "stylist": "Hailey", "rating": 4.9, "total_paid": 70.00 },
+        { "date": "2025-09-18", "occasion": "Birthday Party", "services": ["Nail Art", "Pedicure"], "stylist": "Mia", "rating": 4.6, "total_paid": 90.00 },
+        { "date": "2025-12-15", "occasion": "Before Christmas", "services": ["Hair Coloring", "Facial"], "stylist": "Hailey", "rating": 5.0, "total_paid": 150.00 }
+      ],
+      "avg_spend_per_visit": 103.33,
+      "total_visits": 3,
+      "favorite_services": ["Facial", "Hair Coloring"],
+      "preferred_stylists": ["Hailey", "Mia"],
+      "notes": "Loves Hailey for color. Seasonal visitor — books around occasions."
+    },
+    "Jennie": {
+      "customer_id": "CUST-002",
+      "phone": "+1 646 555 0202",
+      "email": "jennie@email.com",
+      "preferred_day": "Sunday",
+      "member_since": "2024-12-01",
+      "visit_history": [
+        { "date": "2025-02-10", "occasion": "Valentine's Day", "services": ["Nail Art", "Manicure"], "stylist": "Mia", "rating": 4.4, "total_paid": 80.00 },
+        { "date": "2025-07-05", "occasion": "Wedding Season", "services": ["Hair Coloring", "Facial"], "stylist": "Hailey", "rating": 4.6, "total_paid": 150.00 },
+        { "date": "2025-11-20", "occasion": "Thanksgiving", "services": ["Facial", "Pedicure", "Manicure"], "stylist": "Mia", "rating": 4.9, "total_paid": 140.00 }
+      ],
+      "avg_spend_per_visit": 123.33,
+      "total_visits": 3,
+      "favorite_services": ["Facial", "Manicure"],
+      "preferred_stylists": ["Mia", "Hailey"],
+      "notes": "Prefers Mia for nail services. High spender."
+    },
+    "Lisa": {
+      "customer_id": "CUST-003",
+      "phone": "+1 212 555 0303",
+      "email": "lisa@email.com",
+      "preferred_day": "Friday",
+      "member_since": "2025-01-15",
+      "visit_history": [
+        { "date": "2025-06-05", "occasion": "Summer Vacation", "services": ["Waxing", "Eyebrow Wax"], "stylist": "Olivia", "rating": 4.7, "total_paid": 50.00 },
+        { "date": "2025-09-12", "occasion": "Office Party", "services": ["Manicure", "Pedicure"], "stylist": "Mia", "rating": 4.5, "total_paid": 70.00 },
+        { "date": "2025-12-20", "occasion": "Christmas Party", "services": ["Hair Coloring", "Facial"], "stylist": "Hailey", "rating": 4.9, "total_paid": 150.00 }
+      ],
+      "avg_spend_per_visit": 90.00,
+      "total_visits": 3,
+      "favorite_services": ["Hair Coloring", "Waxing"],
+      "preferred_stylists": ["Hailey", "Olivia"],
+      "notes": "Budget-conscious. Books for specific occasions."
+    },
+    "Jisoo": {
+      "customer_id": "CUST-004",
+      "phone": "+1 718 555 0404",
+      "email": "jisoo@email.com",
+      "preferred_day": "Wednesday",
+      "member_since": "2025-01-01",
+      "visit_history": [
+        { "date": "2025-02-22", "occasion": "Valentine's Event", "services": ["Haircut"], "stylist": "Kendall", "rating": 4.3, "total_paid": 30.00 },
+        { "date": "2025-06-28", "occasion": "Summer Trip", "services": ["Haircut"], "stylist": "Kendall", "rating": 4.4, "total_paid": 30.00 },
+        { "date": "2025-10-30", "occasion": "Halloween Party", "services": ["Haircut"], "stylist": "Olivia", "rating": 4.9, "total_paid": 30.00 }
+      ],
+      "avg_spend_per_visit": 30.00,
+      "total_visits": 3,
+      "favorite_services": ["Haircut"],
+      "preferred_stylists": ["Kendall", "Olivia"],
+      "notes": "Tried Olivia once and rated 4.9 vs Kendall's 4.3-4.4. Consider suggesting Olivia next time."
+    },
+    "IU": {
+      "customer_id": "CUST-005",
+      "phone": "+1 347 555 0505",
+      "email": "iu@email.com",
+      "preferred_day": "Monday",
+      "member_since": "2024-10-01",
+      "visit_history": [
+        { "date": "2025-01-15", "occasion": "New Year Refresh", "services": ["Facial", "Manicure"], "stylist": "Mia", "rating": 4.9, "total_paid": 100.00 },
+        { "date": "2025-05-18", "occasion": "Spring Event", "services": ["Facial", "Pedicure"], "stylist": "Gigi", "rating": 5.0, "total_paid": 110.00 },
+        { "date": "2025-09-25", "occasion": "Award Ceremony", "services": ["Hair Coloring", "Facial"], "stylist": "Hailey", "rating": 3.8, "total_paid": 150.00 }
+      ],
+      "avg_spend_per_visit": 120.00,
+      "total_visits": 3,
+      "favorite_services": ["Facial", "Pedicure"],
+      "preferred_stylists": ["Gigi", "Mia"],
+      "notes": "Rated Hailey 3.8 — avoid recommending Hailey for Hair Coloring. Loves Gigi (5.0)."
+    },
+    "Suzy": {
+      "customer_id": "CUST-006",
+      "phone": "+1 917 555 0606",
+      "email": "suzy@email.com",
+      "preferred_day": "Thursday",
+      "member_since": "2024-08-01",
+      "visit_history": [
+        { "date": "2025-04-10", "occasion": "Before Easter", "services": ["Manicure", "Pedicure"], "stylist": "Mia", "rating": 4.8, "total_paid": 70.00 },
+        { "date": "2025-08-01", "occasion": "Wedding Season", "services": ["Pedicure", "Nail Art"], "stylist": "Mia", "rating": 4.6, "total_paid": 90.00 },
+        { "date": "2025-12-28", "occasion": "New Year Party", "services": ["Nail Art", "Manicure", "Pedicure"], "stylist": "Mia", "rating": 5.0, "total_paid": 120.00 }
+      ],
+      "avg_spend_per_visit": 93.33,
+      "total_visits": 3,
+      "favorite_services": ["Nail Art", "Pedicure", "Manicure"],
+      "preferred_stylists": ["Mia"],
+      "notes": "100% loyal to Mia. Always books nail combos. VIP nail customer."
+    },
+    "Taylor": {
+      "customer_id": "CUST-007",
+      "phone": "+1 646 555 0707",
+      "email": "taylor@email.com",
+      "preferred_day": "Saturday",
+      "member_since": "2024-09-15",
+      "visit_history": [
+        { "date": "2025-02-12", "occasion": "Valentine's Date", "services": ["Hair Coloring", "Facial"], "stylist": "Hailey", "rating": 4.8, "total_paid": 150.00 },
+        { "date": "2025-07-12", "occasion": "Wedding Guest", "services": ["Facial", "Eyebrow Wax"], "stylist": "Mia", "rating": 4.7, "total_paid": 85.00 },
+        { "date": "2025-12-18", "occasion": "Christmas Celebration", "services": ["Hair Coloring", "Facial", "Nail Art"], "stylist": "Hailey", "rating": 5.0, "total_paid": 200.00 }
+      ],
+      "avg_spend_per_visit": 145.00,
+      "total_visits": 3,
+      "favorite_services": ["Hair Coloring", "Facial"],
+      "preferred_stylists": ["Hailey"],
+      "notes": "High spender. Loves Hailey for full glam looks."
+    },
+    "Camila": {
+      "customer_id": "CUST-008",
+      "phone": "+1 212 555 0808",
+      "email": "camila@email.com",
+      "preferred_day": "Tuesday",
+      "member_since": "2025-03-01",
+      "visit_history": [
+        { "date": "2025-06-15", "occasion": "Summer Vacation", "services": ["Waxing"], "stylist": "Gigi", "rating": 4.9, "total_paid": 35.00 },
+        { "date": "2025-09-20", "occasion": "Birthday Week", "services": ["Waxing"], "stylist": "Gigi", "rating": 4.8, "total_paid": 35.00 },
+        { "date": "2025-11-22", "occasion": "Thanksgiving", "services": ["Waxing"], "stylist": "Olivia", "rating": 4.5, "total_paid": 35.00 }
+      ],
+      "avg_spend_per_visit": 35.00,
+      "total_visits": 3,
+      "favorite_services": ["Waxing"],
+      "preferred_stylists": ["Gigi", "Olivia"],
+      "notes": "Waxing specialist customer. Prefers Gigi (4.9) over Olivia (4.5)."
+    },
+    "Katy": {
+      "customer_id": "CUST-009",
+      "phone": "+1 718 555 0909",
+      "email": "katy@email.com",
+      "preferred_day": "Sunday",
+      "member_since": "2024-07-01",
+      "visit_history": [
+        { "date": "2025-03-15", "occasion": "Spring Event", "services": ["Haircut", "Hair Coloring"], "stylist": "Olivia", "rating": 4.7, "total_paid": 110.00 },
+        { "date": "2025-07-20", "occasion": "Wedding Season", "services": ["Hair Coloring", "Facial"], "stylist": "Hailey", "rating": 4.5, "total_paid": 150.00 },
+        { "date": "2025-12-10", "occasion": "Christmas Party", "services": ["Nail Art", "Hair Coloring"], "stylist": "Olivia", "rating": 4.9, "total_paid": 130.00 }
+      ],
+      "avg_spend_per_visit": 130.00,
+      "total_visits": 3,
+      "favorite_services": ["Hair Coloring", "Nail Art"],
+      "preferred_stylists": ["Olivia", "Hailey"],
+      "notes": "Prefers Olivia for hair. Tries multiple stylists."
+    },
+    "Adele": {
+      "customer_id": "CUST-010",
+      "phone": "+1 347 555 1010",
+      "email": "adele@email.com",
+      "preferred_day": "Friday",
+      "member_since": "2024-06-01",
+      "visit_history": [
+        { "date": "2025-04-18", "occasion": "Before Easter", "services": ["Facial", "Manicure"], "stylist": "Mia", "rating": 4.9, "total_paid": 100.00 },
+        { "date": "2025-08-22", "occasion": "Summer Event", "services": ["Haircut", "Facial"], "stylist": "Olivia", "rating": 4.8, "total_paid": 100.00 },
+        { "date": "2025-12-27", "occasion": "New Year Celebration", "services": ["Hair Coloring", "Facial", "Manicure"], "stylist": "Hailey", "rating": 4.4, "total_paid": 180.00 }
+      ],
+      "avg_spend_per_visit": 126.67,
+      "total_visits": 3,
+      "favorite_services": ["Facial", "Manicure"],
+      "preferred_stylists": ["Mia", "Olivia"],
+      "notes": "Rated Hailey 4.4 — not her best experience. Loves Mia and Olivia."
+    },
+    "Selena": {
+      "customer_id": "CUST-011",
+      "phone": "+1 917 555 1111",
+      "email": "selena@email.com",
+      "preferred_day": "Monday",
+      "member_since": "2025-02-01",
+      "visit_history": [
+        { "date": "2025-06-10", "occasion": "Summer Holiday", "services": ["Waxing", "Eyebrow Wax"], "stylist": "Olivia", "rating": 4.8, "total_paid": 50.00 },
+        { "date": "2025-09-14", "occasion": "Music Awards", "services": ["Nail Art", "Manicure"], "stylist": "Mia", "rating": 5.0, "total_paid": 80.00 },
+        { "date": "2025-11-25", "occasion": "Thanksgiving", "services": ["Facial", "Pedicure"], "stylist": "Gigi", "rating": 4.6, "total_paid": 110.00 }
+      ],
+      "avg_spend_per_visit": 80.00,
+      "total_visits": 3,
+      "favorite_services": ["Nail Art", "Waxing"],
+      "preferred_stylists": ["Mia", "Olivia"],
+      "notes": "Gave Mia a perfect 5.0 for nail art."
+    },
+    "Rihanna": {
+      "customer_id": "CUST-012",
+      "phone": "+1 646 555 1212",
+      "email": "rihanna@email.com",
+      "preferred_day": "Thursday",
+      "member_since": "2024-05-01",
+      "visit_history": [
+        { "date": "2025-03-22", "occasion": "Spring Gala", "services": ["Hair Coloring", "Facial"], "stylist": "Hailey", "rating": 4.8, "total_paid": 150.00 },
+        { "date": "2025-08-15", "occasion": "Summer Event", "services": ["Hair Coloring", "Facial", "Pedicure"], "stylist": "Hailey", "rating": 4.9, "total_paid": 190.00 },
+        { "date": "2025-12-19", "occasion": "Christmas Party", "services": ["Hair Coloring", "Facial", "Nail Art"], "stylist": "Hailey", "rating": 5.0, "total_paid": 200.00 }
+      ],
+      "avg_spend_per_visit": 180.00,
+      "total_visits": 3,
+      "favorite_services": ["Hair Coloring", "Facial"],
+      "preferred_stylists": ["Hailey"],
+      "notes": "100% loyal to Hailey. Highest spender. VIP customer."
+    },
+    "Ellie": {
+      "customer_id": "CUST-013",
+      "phone": "+1 212 555 1313",
+      "email": "ellie@email.com",
+      "preferred_day": "Tuesday",
+      "member_since": "2024-11-01",
+      "visit_history": [
+        { "date": "2025-02-08", "occasion": "Valentine's Day", "services": ["Nail Art", "Manicure"], "stylist": "Mia", "rating": 4.9, "total_paid": 80.00 },
+        { "date": "2025-07-18", "occasion": "Wedding Season", "services": ["Nail Art", "Pedicure"], "stylist": "Mia", "rating": 4.8, "total_paid": 90.00 },
+        { "date": "2025-12-22", "occasion": "Christmas Celebration", "services": ["Nail Art", "Manicure", "Pedicure"], "stylist": "Mia", "rating": 5.0, "total_paid": 120.00 }
+      ],
+      "avg_spend_per_visit": 96.67,
+      "total_visits": 3,
+      "favorite_services": ["Nail Art", "Manicure", "Pedicure"],
+      "preferred_stylists": ["Mia"],
+      "notes": "Exclusively Mia. Nail enthusiast. Always books full nail packages."
+    },
+    "Ariana": {
+      "customer_id": "CUST-014",
+      "phone": "+1 718 555 1414",
+      "email": "ariana@email.com",
+      "preferred_day": "Saturday",
+      "member_since": "2024-12-15",
+      "visit_history": [
+        { "date": "2025-01-25", "occasion": "New Year Look", "services": ["Haircut", "Hair Coloring"], "stylist": "Olivia", "rating": 4.7, "total_paid": 110.00 },
+        { "date": "2025-06-21", "occasion": "Summer Vacation", "services": ["Haircut", "Hair Coloring"], "stylist": "Olivia", "rating": 4.8, "total_paid": 110.00 },
+        { "date": "2025-11-28", "occasion": "Thanksgiving", "services": ["Haircut", "Hair Coloring", "Facial"], "stylist": "Hailey", "rating": 4.5, "total_paid": 180.00 }
+      ],
+      "avg_spend_per_visit": 133.33,
+      "total_visits": 3,
+      "favorite_services": ["Haircut", "Hair Coloring"],
+      "preferred_stylists": ["Olivia", "Hailey"],
+      "notes": "Loyal to Olivia for hair. Tried Hailey once — lower rating."
+    },
+    "Halsey": {
+      "customer_id": "CUST-015",
+      "phone": "+1 347 555 1515",
+      "email": "halsey@email.com",
+      "preferred_day": "Wednesday",
+      "member_since": "2025-01-10",
+      "visit_history": [
+        { "date": "2025-04-05", "occasion": "Before Easter", "services": ["Waxing"], "stylist": "Gigi", "rating": 4.9, "total_paid": 35.00 },
+        { "date": "2025-07-26", "occasion": "Beach Vacation", "services": ["Waxing", "Facial"], "stylist": "Gigi", "rating": 4.8, "total_paid": 105.00 },
+        { "date": "2025-09-30", "occasion": "Birthday Celebration", "services": ["Waxing"], "stylist": "Olivia", "rating": 4.4, "total_paid": 35.00 }
+      ],
+      "avg_spend_per_visit": 58.33,
+      "total_visits": 3,
+      "favorite_services": ["Waxing", "Facial"],
+      "preferred_stylists": ["Gigi", "Olivia"],
+      "notes": "Strongly prefers Gigi for waxing (4.9 vs Olivia 4.4)."
+    },
+    "Sabrina": {
+      "customer_id": "CUST-016",
+      "phone": "+1 917 555 1616",
+      "email": "sabrina@email.com",
+      "preferred_day": "Sunday",
+      "member_since": "2024-09-01",
+      "visit_history": [
+        { "date": "2025-02-14", "occasion": "Valentine's Day", "services": ["Hair Coloring", "Nail Art"], "stylist": "Olivia", "rating": 4.6, "total_paid": 130.00 },
+        { "date": "2025-08-09", "occasion": "Wedding Season", "services": ["Hair Coloring", "Facial", "Pedicure"], "stylist": "Hailey", "rating": 4.8, "total_paid": 190.00 },
+        { "date": "2025-12-30", "occasion": "New Year Party", "services": ["Hair Coloring", "Facial", "Nail Art"], "stylist": "Hailey", "rating": 5.0, "total_paid": 200.00 }
+      ],
+      "avg_spend_per_visit": 173.33,
+      "total_visits": 3,
+      "favorite_services": ["Hair Coloring", "Facial"],
+      "preferred_stylists": ["Hailey", "Olivia"],
+      "notes": "High spender. Loves Hailey for full packages. Growing loyalty."
+    },
+    "NEW_CUSTOMER": {
+      "customer_id": "CUST-000",
+      "phone": null,
+      "email": null,
+      "preferred_day": null,
+      "member_since": null,
+      "visit_history": [],
+      "avg_spend_per_visit": 0,
+      "total_visits": 0,
+      "favorite_services": [],
+      "preferred_stylists": [],
+      "notes": "No history. Recommend stylist by rating and specialty match."
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "description": "Default weekly slots per stylist. Used when no special week applies and not in the 3-day live window.",
+  "Monday": {
+    "Hailey": ["10:00 AM", "2:00 PM"],
+    "Kendall": ["11:00 AM", "4:00 PM"],
+    "Gigi": ["9:00 AM", "1:00 PM", "4:00 PM"],
+    "Olivia": ["10:00 AM", "1:00 PM", "3:00 PM", "5:00 PM"],
+    "Mia": ["12:00 PM", "3:00 PM"]
+  },
+  "Tuesday": {
+    "Hailey": ["11:00 AM", "3:00 PM"],
+    "Kendall": ["10:00 AM", "2:00 PM"],
+    "Gigi": ["9:00 AM", "1:00 PM", "4:00 PM"],
+    "Olivia": ["10:00 AM", "12:00 PM", "3:00 PM", "5:00 PM"],
+    "Mia": ["11:00 AM", "4:00 PM"]
+  },
+  "Wednesday": {
+    "Hailey": ["10:00 AM", "2:00 PM"],
+    "Kendall": ["9:00 AM", "4:00 PM"],
+    "Gigi": ["11:00 AM", "1:00 PM", "3:00 PM"],
+    "Olivia": ["10:00 AM", "12:00 PM", "2:00 PM", "5:00 PM"],
+    "Mia": ["1:00 PM", "4:00 PM"]
+  },
+  "Thursday": {
+    "Hailey": ["9:00 AM", "1:00 PM"],
+    "Kendall": ["11:00 AM", "5:00 PM"],
+    "Gigi": ["10:00 AM", "2:00 PM", "4:00 PM"],
+    "Olivia": ["9:00 AM", "12:00 PM", "3:00 PM", "5:00 PM"],
+    "Mia": ["10:00 AM", "2:00 PM"]
+  },
+  "Friday": {
+    "Hailey": ["10:00 AM", "4:00 PM"],
+    "Kendall": ["9:00 AM", "2:00 PM"],
+    "Gigi": ["11:00 AM", "1:00 PM", "5:00 PM"],
+    "Olivia": ["10:00 AM", "12:00 PM", "3:00 PM", "5:00 PM"],
+    "Mia": ["12:00 PM", "4:00 PM"]
+  },
+  "Saturday": {
+    "Hailey": ["9:00 AM", "1:00 PM"],
+    "Kendall": ["10:00 AM", "3:00 PM"],
+    "Gigi": ["11:00 AM", "2:00 PM"],
+    "Olivia": ["9:00 AM", "12:00 PM", "4:00 PM"],
+    "Mia": ["1:00 PM", "5:00 PM"]
+  },
+  "Sunday": {
+    "Hailey": ["11:00 AM", "3:00 PM"],
+    "Kendall": ["10:00 AM", "1:00 PM"],
+    "Gigi": ["9:00 AM", "2:00 PM"],
+    "Olivia": ["12:00 PM", "4:00 PM"],
+    "Mia": ["11:00 AM", "5:00 PM"]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "description": "Live schedule for today, tomorrow, and day-after-tomorrow. Slot status: available or booked. When a booking is confirmed, update status to booked and fill in customer + services.",
+  "how_to_use": "Always check this file FIRST for near-term bookings. Slot status reflects real-time availability.",
+  "Today": {
+    "date": "2026-06-13",
+    "day": "Saturday",
+    "Hailey": {
+      "working_hours": { "start": "09:00", "end": "18:00" },
+      "slots": [
+        { "time": "09:00", "status": "booked", "customer": "Rosie", "services": ["Hair Coloring", "Facial"], "end": "12:00" },
+        { "time": "12:30", "status": "booked", "customer": "Taylor", "services": ["Hair Coloring"], "end": "14:30" },
+        { "time": "15:00", "status": "booked", "customer": "Lisa", "services": ["Facial"], "end": "16:00" },
+        { "time": "16:00", "status": "booked", "customer": "Jennie", "services": ["Hair Coloring"], "end": "18:00" }
+      ],
+      "next_available": "fully booked today"
+    },
+    "Kendall": {
+      "working_hours": { "start": "09:00", "end": "18:00" },
+      "slots": [
+        { "time": "09:00", "status": "booked", "customer": "Jisoo", "services": ["Haircut"], "end": "10:00" },
+        { "time": "10:30", "status": "booked", "customer": "Ariana", "services": ["Haircut", "Hair Coloring"], "end": "13:30" },
+        { "time": "14:00", "status": "booked", "customer": "Katy", "services": ["Haircut"], "end": "15:00" },
+        { "time": "15:30", "status": "booked", "customer": "Adele", "services": ["Haircut", "Facial"], "end": "17:30" }
+      ],
+      "next_available": "fully booked today"
+    },
+    "Gigi": {
+      "working_hours": { "start": "09:00", "end": "18:00" },
+      "slots": [
+        { "time": "09:00", "status": "booked", "customer": "Camila", "services": ["Waxing"], "end": "09:45" },
+        { "time": "10:00", "status": "booked", "customer": "Selena", "services": ["Waxing", "Facial"], "end": "11:45" },
+        { "time": "12:30", "status": "booked", "customer": "Halsey", "services": ["Facial"], "end": "13:30" },
+        { "time": "15:00", "status": "booked", "customer": "Rihanna", "services": ["Waxing"], "end": "15:45" },
+        { "time": "16:00", "status": "available", "customer": null, "services": [], "end": "18:00" }
+      ],
+      "next_available": "4:00 PM"
+    },
+    "Olivia": {
+      "working_hours": { "start": "09:00", "end": "18:00" },
+      "slots": [
+        { "time": "09:00", "status": "available", "customer": null, "services": [], "end": null },
+        { "time": "12:00", "status": "available", "customer": null, "services": [], "end": null },
+        { "time": "14:00", "status": "booked", "customer": "Sabrina", "services": ["Hair Coloring"], "end": "16:00" },
+        { "time": "16:30", "status": "available", "customer": null, "services": [], "end": null }
+      ],
+      "next_available": "9:00 AM"
+    },
+    "Mia": {
+      "working_hours": { "start": "10:00", "end": "19:00" },
+      "slots": [
+        { "time": "10:00", "status": "booked", "customer": "Suzy", "services": ["Manicure", "Pedicure"], "end": "12:00" },
+        { "time": "13:00", "status": "available", "customer": null, "services": [], "end": null },
+        { "time": "15:30", "status": "booked", "customer": "Ellie", "services": ["Nail Art", "Manicure"], "end": "17:45" },
+        { "time": "18:00", "status": "available", "customer": null, "services": [], "end": null }
+      ],
+      "next_available": "1:00 PM"
+    }
+  },
+  "Tomorrow": {
+    "date": "2026-06-14",
+    "day": "Sunday",
+    "Hailey": {
+      "working_hours": { "start": "09:00", "end": "18:00" },
+      "slots": [
+        { "time": "10:00", "status": "booked", "customer": "Rosie", "services": ["Hair Coloring", "Facial"], "end": "13:00" },
+        { "time": "14:00", "status": "available", "customer": null, "services": [], "end": null },
+        { "time": "16:00", "status": "available", "customer": null, "services": [], "end": null }
+      ],
+      "next_available": "2:00 PM"
+    },
+    "Kendall": {
+      "working_hours": { "start": "09:00", "end": "18:00" },
+      "slots": [
+        { "time": "09:00", "status": "booked", "customer": "Jisoo", "services": ["Haircut"], "end": "10:00" },
+        { "time": "10:30", "status": "available", "customer": null, "services": [], "end": null },
+        { "time": "14:00", "status": "booked", "customer": "Ariana", "services": ["Haircut", "Hair Coloring"], "end": "17:00" }
+      ],
+      "next_available": "10:30 AM"
+    },
+    "Gigi": {
+      "working_hours": { "start": "09:00", "end": "17:00" },
+      "slots": [
+        { "time": "09:00", "status": "available", "customer": null, "services": [], "end": null },
+        { "time": "11:00", "status": "available", "customer": null, "services": [], "end": null },
+        { "time": "14:00", "status": "available", "customer": null, "services": [], "end": null }
+      ],
+      "next_available": "9:00 AM"
+    },
+    "Olivia": {
+      "working_hours": { "start": "10:00", "end": "18:00" },
+      "slots": [
+        { "time": "10:00", "status": "available", "customer": null, "services": [], "end": null },
+        { "time": "13:00", "status": "available", "customer": null, "services": [], "end": null },
+        { "time": "16:00", "status": "available", "customer": null, "services": [], "end": null }
+      ],
+      "next_available": "10:00 AM"
+    },
+    "Mia": {
+      "working_hours": { "start": "11:00", "end": "19:00" },
+      "slots": [
+        { "time": "11:00", "status": "available", "customer": null, "services": [], "end": null },
+        { "time": "14:00", "status": "available", "customer": null, "services": [], "end": null },
+        { "time": "17:00", "status": "available", "customer": null, "services": [], "end": null }
+      ],
+      "next_available": "11:00 AM"
+    }
+  },
+  "Day_After_Tomorrow": {
+    "date": "2026-06-15",
+    "day": "Monday",
+    "Hailey": {
+      "working_hours": { "start": "09:00", "end": "18:00" },
+      "slots": [
+        { "time": "10:00", "status": "available", "customer": null, "services": [], "end": null },
+        { "time": "14:00", "status": "available", "customer": null, "services": [], "end": null }
+      ],
+      "next_available": "10:00 AM"
+    },
+    "Kendall": {
+      "working_hours": { "start": "09:00", "end": "18:00" },
+      "slots": [
+        { "time": "11:00", "status": "available", "customer": null, "services": [], "end": null },
+        { "time": "14:00", "status": "available", "customer": null, "services": [], "end": null },
+        { "time": "16:00", "status": "available", "customer": null, "services": [], "end": null }
+      ],
+      "next_available": "11:00 AM"
+    },
+    "Gigi": {
+      "working_hours": { "start": "09:00", "end": "18:00" },
+      "slots": [
+        { "time": "09:00", "status": "available", "customer": null, "services": [], "end": null },
+        { "time": "13:00", "status": "available", "customer": null, "services": [], "end": null },
+        { "time": "16:00", "status": "available", "customer": null, "services": [], "end": null }
+      ],
+      "next_available": "9:00 AM"
+    },
+    "Olivia": {
+      "working_hours": { "start": "10:00", "end": "19:00" },
+      "slots": [
+        { "time": "10:00", "status": "available", "customer": null, "services": [], "end": null },
+        { "time": "13:00", "status": "available", "customer": null, "services": [], "end": null },
+        { "time": "15:00", "status": "available", "customer": null, "services": [], "end": null },
+        { "time": "17:00", "status": "available", "customer": null, "services": [], "end": null }
+      ],
+      "next_available": "10:00 AM"
+    },
+    "Mia": {
+      "working_hours": { "start": "10:00", "end": "18:00" },
+      "slots": [
+        { "time": "12:00", "status": "available", "customer": null, "services": [], "end": null },
+        { "time": "15:00", "status": "available", "customer": null, "services": [], "end": null }
+      ],
+      "next_available": "12:00 PM"
+    }
+  }
+}
